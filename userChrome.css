@@ -1,0 +1,8 @@
+
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+
+#urlbar {font-size: 15pt !important}
+#TabsToolbar { height: 35px; font-size:15pt !important; }
+
+#PopupSearchAutoComplete .autocomplete-richlistbox { font-size: 15pt !important;}

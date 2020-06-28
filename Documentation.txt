@@ -1,0 +1,24 @@
+Following are the instructions to reach the UserChrome file :
+( These instructions are for Mozilla Firefox only)
+
+1. In your Browser click on the Options Buttong and go to the Help Section.
+2. Once Inside the Help section, click on the tab : TroubleShooting Information
+3. Here you will see a list of options. You have to go the "Profile Directory" option and click on the "Open Directory" button. 
+
+4. Once inside the directory, check if you have a folder named "Chrome". If you don't then make one. cd into that folder now.
+
+5. If it's there already, great, else create a file called "userChrome.css"  . Add the contents from our userChrome.css into your file as per your requirements.
+ 
+6. Save the file and restart the browser.
+
+
+
+IF THE CHANGES DO NOT TAKE EFFECT : 
+
+* Normally the changes take effect on their own, but some verions of Firefox have that disabled. To make sure your userChrome file is taking effect, please follow the following instructions. 
+
+
+1. Load about:config in the Firefox address bar.
+2. Confirm that you will be careful.
+3. Search for toolkit.legacyUserProfileCustomizations.stylesheets using the search at the top.
+4. Toggle the preference. True means Firefox supports the CSS files, False that it ignores them.
